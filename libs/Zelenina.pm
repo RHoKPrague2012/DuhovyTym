@@ -44,4 +44,18 @@ sub lookup
 	return @retval;
 }
 
+
+sub is_seasonal
+{
+  my ($vegetable, $month) = @_;
+
+  foreach (lookup $month) {
+    if ($vegetable eq $_->property ('description')->[0]->value) {
+      return 1;
+    }
+  }
+
+  return 0;
+}
+
 1;
