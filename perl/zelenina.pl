@@ -33,5 +33,3 @@ else {
     print "\n";
   };
 }
-
-print $ENV{OPENSHIFT_REPO_DIR};
