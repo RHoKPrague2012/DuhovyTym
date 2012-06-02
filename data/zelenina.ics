@@ -7,6 +7,8 @@ DTEND;VALUE=DATE:20130601
 DTSTART;VALUE=DATE:20120901
 RRULE:FREQ=YEARLY
 SUMMARY:Artyčoky
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Arty%C4%8Dok
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/5/5e/Artichokes_being_cooked.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lilek
@@ -14,6 +16,9 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120701
 RRULE:FREQ=YEARLY
 SUMMARY:Lilek
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Lilek_vejcoplod%C3%BD
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/6/6a/Baklazan.jpg
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=lilek
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bílé zelí
@@ -21,6 +26,9 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120701
 RRULE:FREQ=YEARLY
 SUMMARY:Bílé zelí
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Hl%C3%A1vkov%C3%A9_zel%C3%AD
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=bile+zeli
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/c/c9/Brassica_oleracea2.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Brokolice
@@ -28,6 +36,9 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120601
 RRULE:FREQ=YEARLY
 SUMMARY:Brokolice
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Brokolice
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=brokolice
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/f/fb/Broccoli_bunches.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Česnek
@@ -35,6 +46,8 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120101
 RRULE:FREQ=YEARLY
 SUMMARY:Česnek
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/%C4%8Cesnek_kuchy%C5%88sk%C3%BD
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/2/22/Garlic.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Cibule
@@ -42,6 +55,8 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120101
 RRULE:FREQ=YEARLY
 SUMMARY:Cibule
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Cibule_kuchy%C5%88sk%C3%A1
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=cibule
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Cikorka
@@ -49,6 +64,8 @@ DTEND;VALUE=DATE:20130401
 DTSTART;VALUE=DATE:20121001
 RRULE:FREQ=YEARLY
 SUMMARY:Cikorka
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Cikorka
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/8/80/Cichorium_intybus-alvesgaspar1.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Cukina
@@ -56,6 +73,9 @@ DTEND;VALUE=DATE:20121201
 DTSTART;VALUE=DATE:20120601
 RRULE:FREQ=YEARLY
 SUMMARY:Cukina
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/4/4b/Cukety1.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Cuketa
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=cuketa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Červená řepa
@@ -63,6 +83,10 @@ DTEND;VALUE=DATE:20120901
 DTSTART;VALUE=DATE:20120801
 RRULE:FREQ=YEARLY
 SUMMARY:Červená řepa
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=cervena+repa
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/%C5%98epa_%C4%8Derven%C3%A1
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/e/e7/Rote_Bete_eine_Haelfte.jpg
+ATTACH;X-REL=RECIPE:http://cervena-repa.cz/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Červené zelí
@@ -70,6 +94,9 @@ DTEND;VALUE=DATE:20130301
 DTSTART;VALUE=DATE:20120901
 RRULE:FREQ=YEARLY
 SUMMARY:Červené zelí
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Ko%C5%A1%C5%A5%C3%A1lov%C3%A1_zelenina#Zel.C3.AD_hl.C3.A1vkov.C3.A9
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=cervene+zeli
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/9/91/Rode_kool.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Čínské zelí
@@ -77,6 +104,9 @@ DTEND;VALUE=DATE:20130401
 DTSTART;VALUE=DATE:20120901
 RRULE:FREQ=YEARLY
 SUMMARY:Čínské zelí
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/6/61/Bokchoy.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/%C4%8C%C3%ADnsk%C3%A9_zel%C3%AD
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=cinske+zeli
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Fenykl
@@ -84,6 +114,9 @@ DTEND;VALUE=DATE:20121201
 DTSTART;VALUE=DATE:20120901
 RRULE:FREQ=YEARLY
 SUMMARY:Fenykl
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Fenykl_obecn%C3%BD
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/2/2f/Fennel_flower_heads.jpg
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=fenykl
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Hlávkový salát
@@ -91,6 +124,8 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120501
 RRULE:FREQ=YEARLY
 SUMMARY:Hlávkový salát
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/a/a5/Iceberg_lettuce_%28IJssla_krop%29.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Locika_set%C3%A1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Hrášek
@@ -98,6 +133,9 @@ DTEND;VALUE=DATE:20120901
 DTSTART;VALUE=DATE:20120601
 RRULE:FREQ=YEARLY
 SUMMARY:Hrášek
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/b/bc/Doperwt_rijserwt_peulen_Pisum_sativum.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Hr%C3%A1ch_set%C3%BD
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=hrasek
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Jarní cibulka
@@ -105,6 +143,9 @@ DTEND;VALUE=DATE:20121201
 DTSTART;VALUE=DATE:20120401
 RRULE:FREQ=YEARLY
 SUMMARY:Jarní cibulka
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/5/57/GreenOnions.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Cibule_kuchy%C5%88sk%C3%A1
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=jarni+cibulka
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kedluben
@@ -112,6 +153,9 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120501
 RRULE:FREQ=YEARLY
 SUMMARY:Kedluben
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/1/12/Kohlrabi_against_an_exotic_cushion%2C_Gurgaon%2CHaryana.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Ko%C5%A1%C5%A5%C3%A1lov%C3%A1_zelenina#Kedluben
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=kedlubna
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Květák
@@ -119,6 +163,9 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120601
 RRULE:FREQ=YEARLY
 SUMMARY:Květák
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Kv%C4%9Bt%C3%A1k
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/7/7c/Cauliflower.jpg
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=kvetak
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kapusta
@@ -126,6 +173,9 @@ DTEND;VALUE=DATE:20130601
 DTSTART;VALUE=DATE:20120801
 RRULE:FREQ=YEARLY
 SUMMARY:Kapusta
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Kapusta_%28zelenina%29
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=kapusta
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/2/20/Boerenkool.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ledový salát
@@ -133,6 +183,9 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120501
 RRULE:FREQ=YEARLY
 SUMMARY:Ledový salát
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Locika_set%C3%A1
+ATTACH;X-REL=RECIPE:http://www.srecepty.cz/ingredience/ledovy-salat
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/4/49/Lettuce_mix.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mrkev
@@ -140,6 +193,9 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120101
 RRULE:FREQ=YEARLY
 SUMMARY:Mrkev
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Mrkev_obecn%C3%A1
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=mrkev
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/f/ff/CarrotRoots.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Paprika
@@ -147,6 +203,9 @@ DTEND;VALUE=DATE:20121201
 DTSTART;VALUE=DATE:20120701
 RRULE:FREQ=YEARLY
 SUMMARY:Paprika
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/d/da/Red_capsicum_and_cross_section.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Paprika
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=paprika
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rajče
@@ -154,6 +213,9 @@ DTEND;VALUE=DATE:20130401
 DTSTART;VALUE=DATE:20120701
 RRULE:FREQ=YEARLY
 SUMMARY:Rajče
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Raj%C4%8De_jedl%C3%A9
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=rajce
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Pórek
@@ -161,6 +223,9 @@ DTEND;VALUE=DATE:20130301
 DTSTART;VALUE=DATE:20120601
 RRULE:FREQ=YEARLY
 SUMMARY:Pórek
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/2/2a/Leeks_produce-1.jpg
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/P%C3%B3r_zahradn%C3%AD
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=porek
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ředkvička
@@ -168,6 +233,8 @@ DTEND;VALUE=DATE:20121101
 DTSTART;VALUE=DATE:20120501
 RRULE:FREQ=YEARLY
 SUMMARY:Ředkvička
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/%C5%98edkvi%C4%8Dka
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/3/32/Red_and_white_variety_of_redish.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Růžičková kapusta
@@ -175,6 +242,8 @@ DTEND;VALUE=DATE:20130301
 DTSTART;VALUE=DATE:20121001
 RRULE:FREQ=YEARLY
 SUMMARY:Růžičková kapusta
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Ko%C5%A1%C5%A5%C3%A1lov%C3%A1_zelenina#R.C5.AF.C5.BEi.C4.8Dkov.C3.A1_kapusta
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/0/02/Choux_de_Bruxelles.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rukola
@@ -182,6 +251,8 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120101
 RRULE:FREQ=YEARLY
 SUMMARY:Rukola
+X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/7/79/Eruca_sativa_1_IP0206101.jpg
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=rukola
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Chřest
@@ -189,6 +260,9 @@ DTEND;VALUE=DATE:20120701
 DTSTART;VALUE=DATE:20120401
 RRULE:FREQ=YEARLY
 SUMMARY:Chřest
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Ch%C5%99est
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/1/12/Szparagi.jpg
+ATTACH;X-REL=RECIPE:http://kic.ivancice.cz/Chrest/Recepty.htm
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Špenát
@@ -196,6 +270,8 @@ DTEND;VALUE=DATE:20121001
 DTSTART;VALUE=DATE:20120401
 RRULE:FREQ=YEARLY
 SUMMARY:Špenát
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/%C5%A0pen%C3%A1t
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/spenat/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dýně
@@ -203,6 +279,9 @@ DTEND;VALUE=DATE:20121201
 DTSTART;VALUE=DATE:20120801
 RRULE:FREQ=YEARLY
 SUMMARY:Dýně
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/D%C3%BDn%C4%9B
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/9/99/Pumpkins.jpg
+ATTACH;X-REL=RECIPE:http://www.labuznik.com/ingredience/tykev/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Okurka
@@ -210,6 +289,9 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120101
 RRULE:FREQ=YEARLY
 SUMMARY:Okurka
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Okurka_set%C3%A1
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/a/ac/PicklingCucumbers.jpg
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=okurka
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Zelená fazolka
@@ -217,6 +299,9 @@ DTEND;VALUE=DATE:20121001
 DTSTART;VALUE=DATE:20120501
 RRULE:FREQ=YEARLY
 SUMMARY:Zelená fazolka
+ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Fazol_obecn%C3%BD
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/a/a0/Heaps_of_beans.jpg
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/pikantni-zelene-fazolky/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Zelené zelí
@@ -224,6 +309,8 @@ DTEND;VALUE=DATE:20130301
 DTSTART;VALUE=DATE:20121101
 RRULE:FREQ=YEARLY
 SUMMARY:Zelené zelí
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/3/35/Dojranski_zelki.jpg
+ATTACH;X-REL=RECIPE:http://www.tradicnirecepty.cz/tag/zeli/
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Celer
@@ -231,6 +318,8 @@ DTEND;VALUE=DATE:20121201
 DTSTART;VALUE=DATE:20120701
 RRULE:FREQ=YEARLY
 SUMMARY:Celer
+ATTACH;X-REL=WIKI:http://cs.wiktionary.org/wiki/celer
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/3/38/Knolselderij_knol_%28Apium_graveolens_var._rapaceum%29_%27Dolvi%27.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Brambory
@@ -238,5 +327,7 @@ DTEND;VALUE=DATE:20130101
 DTSTART;VALUE=DATE:20120101
 RRULE:FREQ=YEARLY
 SUMMARY:Brambory
+ATTACH;X-REL=RECIPE:http://recepty.vareni.cz/vyhledavani/?ingredience=brambory
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg
 END:VEVENT
 END:VCALENDAR
