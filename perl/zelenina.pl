@@ -10,7 +10,7 @@ my $params = CGI->new;
 my $vegetable = $params->param('zelenina');
 my $month = $params->param('mesiac');
 
-if ($vegetable =~ /[^a-zA-Z áčďéěíňóřšťůúýžľô]{1,40}/) {
+if ($vegetable =~ /[^a-zA-Z áčďéěíňóřšťůúýžľôČĎŇŘŠŽŤĽ]{1,40}/) {
   print "O tejto zelenine nemáme záznam\n";
   return;
 }
