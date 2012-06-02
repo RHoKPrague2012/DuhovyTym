@@ -44,14 +44,32 @@ sub lookup
 	return @retval;
 }
 
-
 sub is_seasonal
 {
   my ($vegetable, $month) = @_;
 
-  foreach (lookup $month) {
-    if ($vegetable eq $_->property ('description')->[0]->value) {
-      return 1;
+	my $cal = cal;
+
+  foreach my $entry (@{$cal->entries}) {
+    if ( $entry->property ('description')->[0]->value eq $vegetable) {
+
+      my $begin = $entry->property ('dtstart')->[0];
+      $begin->parameters->{VALUE} eq 'DATE' or die;
+      my $end = $entry->property ('dtend')->[0];
+      $end->parameters->{VALUE} eq 'DATE' or die;
+
+      my ($b_year, $b_month) = $begin->value =~ /(\d\d\d\d)(\d\d)/ or die;
+      my ($e_year, $e_month) = $end->value =~ /(\d\d\d\d)(\d\d)/ or die;
+
+      # Ignore non-matching
+      if ($e_year < $b_year) {
+        # Leaps into next year
+        return 1 if $month >= $b_month and $month <= $e_month;
+      }
+      else {
+        return 1 if $month >= $b_month or $month <= $e_month;
+      }
+
     }
   }
 
