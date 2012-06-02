@@ -10,7 +10,7 @@ use Data::ICal;
 use Date::ICal;
 use Data::Dumper;
 
-my $dbfile = ($ENV{OPENSHIFT_REPO_DIR} || '').'data/zelenina.ics';
+my $dbfile = ($ENV{OPENSHIFT_REPO_DIR} || '').'data/calendar.ics';
 
 sub cal { new Data::ICal (filename => $dbfile); }
 
