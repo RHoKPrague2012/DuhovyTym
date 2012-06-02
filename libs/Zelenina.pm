@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use base qw/Exporter/;
-our @EXPORT = qw/lookup/;
+our @EXPORT = qw/lookup is_seasonal/;
 
 use Data::ICal;
 use Date::ICal;
