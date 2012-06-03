@@ -22,13 +22,21 @@ if ($month !~ /^[01]?\d$/) {
 
 my $is_seasonal = is_seasonal($vegetable, $month);
 
+my $type = get_type($vegetable);
+
 if ($is_seasonal) {
-  print "Zelenina $vegetable je sezónna\n";
+  print ucfirst($type) . " $vegetable je sezonní\n";
 }
 else {
-  print "Zelenina $vegetable nie je sezónna\n";
-  print "Sezonna je tato zelenina:\n\n";
-  foreach (lookup $month) {
+  if (!$type) {
+    print "$vegetable nemáme v záznamech\n";
+    print "Sezonní jsou tato ovoce a zelenina:\n\n";
+  }
+  else {
+    print ucfirst($type) . " $vegetable není sezonní\n";
+    print "Sezonní je $type:\n\n";
+  }
+  foreach (lookup ($month, $type)) {
     print $_->property ('description')->[0]->value;
     print "\n";
   };

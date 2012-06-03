@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use base qw/Exporter/;
-our @EXPORT = qw/lookup is_seasonal/;
+our @EXPORT = qw/lookup is_seasonal get_type/;
 
 use Data::ICal;
 use Date::ICal;
@@ -16,11 +16,11 @@ sub cal { new Data::ICal (filename => $dbfile); }
 
 sub lookup
 {
-	my $month = shift;
+	my ($month, $vegetable) = @_;
 	my $cal = cal;
 	my @retval;
 
-	foreach my $entry (@{$cal->entries}) {
+  	foreach my $entry (@{$cal->entries}) {
 
 		my $begin = $entry->property ('dtstart')->[0];
 		$begin->parameters->{VALUE} eq 'DATE' or die;
@@ -38,10 +38,29 @@ sub lookup
 			next if $month < $b_month or $month > $e_month;
 		}
 
+    	if ($vegetable) {
+      		next if $entry->property ('type')->[0]->value ne $vegetable;
+    	}
+
 		push @retval, $entry;
 	}
 
 	return @retval;
+}
+
+sub get_type
+{
+  my($vegetable) = shift;
+
+  my $cal = cal;
+
+  foreach my $entry (@{$cal->entries}) {
+    if ( $entry->property ('description')->[0]->value eq $vegetable) {
+      return $entry->property ('type')->[0]->value;
+    }
+  }
+
+  return 0;
 }
 
 sub is_seasonal
