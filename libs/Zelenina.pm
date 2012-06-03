@@ -12,7 +12,11 @@ use Data::Dumper;
 
 my $dbfile = ($ENV{OPENSHIFT_REPO_DIR} || '').'data/calendar.ics';
 
-sub cal { new Data::ICal (filename => $dbfile); }
+sub cal {
+	our $_cal;
+	return $_cal if $_cal;
+	$_cal = new Data::ICal (filename => $dbfile);
+}
 
 sub lookup
 {
