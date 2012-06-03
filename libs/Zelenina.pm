@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use base qw/Exporter/;
-our @EXPORT = qw/lookup is_seasonal get_type/;
+our @EXPORT = qw/lookup is_seasonal get_type zelenina_view/;
 
 use Data::ICal;
 use Date::ICal;
@@ -93,6 +93,28 @@ sub is_seasonal
   }
 
   return 0;
+}
+
+sub zelenina_view
+{
+	$_ = shift;
+	print '<h3><a href="#">'.$_->property ('description')->[0]->value.'</a></h3>';
+	print '<div>';
+	my $links;
+	foreach (@{$_->property ('attach')}) {
+
+		if ($_->parameters->{'X-REL'} eq 'IMG') {
+			my ($obr) = $_->value =~ /.*\/(.*)/;
+			print '<img src="/images/'.$obr.'" width="100px" align="left" style="margin-right: 1em">';
+		} elsif ($_->parameters->{'X-REL'} eq 'RECIPE') {
+			$links .= '<li><a href="'.$_->value.'">Recepty</a></li>';
+		} elsif ($_->parameters->{'X-REL'} eq 'WIKI') {
+			$links .= '<li><a href="'.$_->value.'">Wiki</a></li>';
+		}
+
+	}
+	print "<ul>$links</ul>";
+	print '</div>';
 }
 
 1;
