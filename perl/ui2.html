@@ -13,15 +13,36 @@
 
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1">Sezónní ovoce/zelenina</a></li>
-		<li><a href="#tabs-2">Vyhledávání</a></li>
+		<li><a href="#tabs-1">Vyhledávání</a></li>
+		<li><a href="#tabs-2">Sezónní ovoce/zelenina</a></li>
 	</ul>
 	<div id="tabs-1">
-		<div name="date" id="date" />
-		<div name="accordion" class="accordion">
-			</div>
+
+		Zelenina nebo ovoce: <input type="text" name="zelenina" id="zelenina">
+		Měsíc:
+			<select name="month" id="month">
+			<option value="1">Január</option>
+			<option value="2">Február</option>
+			<option value="3">Marec</option>
+			<option value="4">Apríl</option>
+			<option value="5">Máj</option>
+			<option value="6">Jún</option>
+			<option value="7">Júl</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">Október</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+
+		<input value="Hledaj" type="submit" name="search" id="search">
+		<div name="accordion2" class="accordion2">
+		</div>
 	</div>
 	<div id="tabs-2">
+		<div name="date" id="date" />
+		<div name="accordion" class="accordion">
+		</div>
 	</div>
 </div>
 </body>

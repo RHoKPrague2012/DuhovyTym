@@ -1,7 +1,6 @@
 $(function(){
 	function reload(month) {
 		$('.accordion').load('/month.pl/' + month, undefined, function(){
-			console.log("KEK");
 			$('.accordion').accordion({
 				autoHeight: false
 			});
@@ -13,7 +12,6 @@ $(function(){
 		max: 12,
 		value: 1,
 		slide: function(event, ui) {
-			console.log(ui);
 			reload(ui.value);
 		}
 	});
@@ -25,6 +23,16 @@ $(function(){
 		my: 'top',
 		at: 'bottom',
 		of: $('#date'),
+	});
+
+	$('.accordion2').accordion();
+	$('#search').button();
+	$('#search').click(function (event, ui) {
+		$('.accordion2').load('/search.pl/'
+			+ $('#zelenina').val()
+			+ '/' + $('#month').val(), undefined, function(){
+				$('.accordion2').accordion();
+		});
 	});
 
 	$('#tabs').tabs();
