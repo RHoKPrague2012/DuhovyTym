@@ -4,6 +4,7 @@ use Zelenina;
 use strict;
 use warnings;
 
+print "Expires: Mon, 22 Jul 2037 11:12:01 GMT\r\n";
 print "Content-type: text/plain\n\n";
 
 my $params = CGI->new;
