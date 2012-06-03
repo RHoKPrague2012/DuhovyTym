@@ -35,6 +35,8 @@ $(function(){
 		});
 	});
 
-	$('#tabs').tabs();
+	$('.calendar').load('/calendar.pl');
+	$('#tabs').tabs({
+	});
 	reload(1);
 });
