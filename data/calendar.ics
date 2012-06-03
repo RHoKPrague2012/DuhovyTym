@@ -482,7 +482,7 @@ DTSTART;VALUE=DATE:20121201
 RRULE:FREQ=YEARLY
 SUMMARY:Grep
 ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/Grapeovoce
-ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/b/bf/Pomelos_-_Grapeovoces.jpg
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/b/bf/Pomelos_-_Grapefruits.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Hrozno
@@ -653,7 +653,7 @@ DTSTART;VALUE=DATE:20120701
 RRULE:FREQ=YEARLY
 SUMMARY:Švestka
 ATTACH;X-REL=WIKI:http://cs.wikipedia.org/wiki/%C5%A0vestka_%28plod%29
-ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/0/04/Slivo%C5%88_%C5%A1vestka%2C_plum.jpg
+ATTACH;X-REL=IMG:http://upload.wikimedia.org/wikipedia/commons/0/04/Slivon_svestka_plum.jpg
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Višeň
